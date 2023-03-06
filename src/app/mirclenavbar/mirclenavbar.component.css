@@ -1,0 +1,32 @@
+.navbar {
+    overflow: hidden;
+    background-color:#00BFFF;
+    height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    color:white;
+    padding: 2px 0px;
+   padding-top: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+   padding-left: 5em;
+
+   text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    color: black;
+    background-color:#00BFFF ;
+    
+  }
+  
+  .navbar a.active {
+    background-color: white;
+    width: 90px;
+    padding-right: 10px;
+    color:#00BFFF
+  }

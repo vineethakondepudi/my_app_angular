@@ -1,0 +1,50 @@
+.topnav {
+  margin: 0px;
+    overflow: hidden;
+    background-color: #333;
+    height:65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #8f959b;
+    text-align: center;
+    padding:18px 0px;
+   padding-top: 1em;
+   padding-right: 0em;
+   padding-bottom: 2em;
+   padding-left: 5em;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .topnav img {
+    width:20px;
+     border-radius: 50%;
+  }
+  .topnav a:hover {
+       color: #A9A9A9;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  .drop-down{
+  position: relative;
+    font-size: 2.077rem;
+    vertical-align: middle;
+    width: 2px;
+    display: inline-block;
+    line-height: inherit;
+}
+  
+@media screen and (max-width:780px) {
+  .topnav a img span  {
+      width: 40%;
+  }
+}
+@media screen and (min-width:400px) {
+  .topnav a img span  {
+      width: 90%;
+  }
+}
